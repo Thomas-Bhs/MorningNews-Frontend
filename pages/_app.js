@@ -8,13 +8,15 @@ import { combineReducers, configureStore } from '@reduxjs/toolkit';
 import bookmarks from '../reducers/bookmarks';
 import user from '../reducers/user';
 import hiddenArticles from '../reducers/hiddenArticles';
+import authModal from '../reducers/authModal';
+import search from '../reducers/search';
 
 //redux-persist import
 import { persistStore, persistReducer } from 'redux-persist';
 import { PersistGate } from 'redux-persist/integration/react';
 import storage from 'redux-persist/lib/storage';
 
-const reducers = combineReducers({ bookmarks, user, hiddenArticles });
+const reducers = combineReducers({ bookmarks, user, hiddenArticles, authModal, search  });
 
 const persistConfig = { key: 'Morningnews', storage };
 
