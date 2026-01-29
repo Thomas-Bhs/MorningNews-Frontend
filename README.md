@@ -1,24 +1,35 @@
 # MorningNews – Frontend
 
-Frontend of the MorningNews web application.  
-This project was developed as part of the La Capsule web development bootcamp.
+Frontend of **MorningNews**, a fullstack news web application built with Next.js and React.
 
-The application allows users to browse news articles from an external API, authenticate, and save articles to their personal bookmarks.
+The app allows users to browse live news articles, create an account, sign in, and save articles to their personal bookmarks.  
+This project was developed during the **La Capsule Web Development Bootcamp** and extended as a portfolio project.
 
 ---
 
-## 🚀 Features
+## Project Goals
 
-- User authentication
-- Real-time news fetching from an external API
-- Save and manage bookmarked articles
-- Global state management with Redux
+- Build a complete **frontend architecture** with a modern React stack
+- Implement **authentication flows** (sign-up / sign-in)
+- Manage global state efficiently using Redux
+- Consume and display data from an external news API
+- Focus on **UX, responsiveness, and clean code structure**
+
+---
+
+## Features
+
+- User authentication (sign-up / sign-in)
+- Live news fetching from an external API
+- Bookmark articles (user-specific)
+- Global state management with Redux Toolkit
 - Persistent state with Redux Persist
+- Error handling and user feedback
 - Responsive UI
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - **Next.js**
 - **React**
@@ -31,7 +42,7 @@ The application allows users to browse news articles from an external API, authe
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 frontend/
 ├── components/     # Reusable UI components
@@ -43,7 +54,7 @@ frontend/
 
 ---
 
-## ⚙️ Installation & Setup
+## Installation & Setup
 
 1. Clone the repository:
 
@@ -58,14 +69,17 @@ yarn dev
 
 The application runs on http://localhost:3001
 
+---
 
-
-🔗 Backend Dependency
+## Backend Dependency
 
 This frontend communicates with the MorningNews backend API.
+
 Make sure the backend server is running before starting the frontend.
 
-👨‍💻 Author
+Backend repository: https://github.com/Thomas-Bhs/MorningNews-Backend
+
+## Author
 
 Thomas Bourchis
 Junior Fullstack Web Developer
