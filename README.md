@@ -31,18 +31,19 @@ This project was developed during the **La Capsule Web Development Bootcamp** an
 
 ## Tech Stack
 
-- **Next.js**
-- **React**
-- **Redux Toolkit**
-- **Redux Persist**
-- **Ant Design**
-- **Font Awesome**
-- **Moment.js**
-- **Jest & React Testing Library**
+- Next.js
+- React
+- Redux Toolkit
+- Redux Persist
+- Ant Design
+- Font Awesome
+- Moment.js
+- Jest & React Testing Library
 
 ---
 
 ## Project Structure
+```text
 
 frontend/
 ├── components/     # Reusable UI components
@@ -51,22 +52,25 @@ frontend/
 ├── styles/         # CSS modules
 ├── public/         # Static assets
 └── package.json
-
+```
 ---
 
 ## Installation & Setup
 
 1. Clone the repository:
-
+```bash
 git clone https://github.com/Thomas-Bhs/MorningNews-Frontend.git
+```
 
 2.	Install dependencies:
+```bash
 yarn install
+```
 
 3.	Start the development server:
+```bash   
 yarn dev
-
-
+```
 The application runs on http://localhost:3001
 
 ---
